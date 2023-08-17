@@ -1,0 +1,93 @@
+body{
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  margin-bottom: 1000px;
+  }
+
+
+  .Barner-Div-Start{
+  display: grid;
+  place-items: center;
+  }
+
+  .Buttons-Lige-agora{
+  color: black;
+  background-color: yellow;
+  font-size: 24px;
+ 
+  width: 323px;
+  border-style: none;
+  font-family: 'Times New Roman', Times, serif;
+  height: 35px ;
+  cursor: pointer;
+      
+  }
+
+  .Foto-perfil-Name-Nahas{
+      width: 300px;
+      border-radius: 1000px;
+      border-style: none;
+      display: inline;
+  }          
+          
+          
+          /* Horario Grid*/
+
+          .Div-grid-location{
+            display: grid;
+            place-items: center;
+            }
+    
+            .Horario-grid-div{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+            row-gap: 10px;
+            column-gap: 10px;
+            text-align: center;
+    
+            }
+    
+            .Horario-grid-hora{
+            color: black;
+            background-color: white;
+            border-radius: 100px;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 20px;
+    
+            }
+    
+            .Horario-grid-aluno{
+            color:yellow ;
+            background-color: black;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 20px;
+            
+            }
+            /* Bolha Grid*/
+    
+            .Div-Endereço-MainDiv{
+            display: grid;
+            place-items: center;
+            vertical-align: bottom;
+    
+            }
+    
+            .Div-Endereço-corpo{
+            width: 320px;
+            display: flex;
+            flex-direction: row;
+            border-color: yellow;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 5px;}
+    
+            .Locaition-pin-Endereço{
+            width: 50px;
+            height: 50px;}
+    
+        /*End of Bolha Slot*/
